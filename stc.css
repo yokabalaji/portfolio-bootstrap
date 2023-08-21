@@ -1,0 +1,138 @@
+body{
+    background-color: lightgray;
+}
+
+
+
+section [class^="container"] {
+    padding: 4rem 2rem;
+}
+
+section.hero{
+    padding-top: 72px; 
+
+}
+@media screen and (max-width:576px){
+    section .hero{
+        text-align: center;
+    }
+    section .hero img{
+        width: 70%;
+    }
+   nav[class^="container"] {
+        padding: 0 4rem;
+    }
+}
+navbar .navbar-brand {
+    font-size: 1.5rem;
+}
+navbar_nav .nav-link{
+    color: black;
+    font-size: 1.1rem;
+transition: all 0.5s;
+}
+
+navbar_nav .nav-link:hover{
+    color:yellow;
+   
+
+}
+section.service i{
+    font-size: 2rem;
+    margin: 1rem auto 0;
+    border: 2px solid black;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+section .card .btn-outline-dark{
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+section .card .btn-outline-dark{
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    transition: all 0.4s;
+}
+    section .card{
+    max-width: 22rem;
+    margin-inline:auto ;
+}
+
+.btn-outline-dark :hover{
+    box-shadow: 4px 4px #ffff00;
+
+}
+section:not(:first-of-type){
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+section .about .container,section .textmonial .container {
+    width: 60%;
+}
+}
+/* section :nth-child(2n){
+    background-color: rgb(177, 48, 48);
+} */
+section .project .card{
+   max-width: 17rem;
+   text-align: left;
+
+}
+section .project .card img{
+    max-width: 70%;
+    margin: 1rem auto;
+}
+section .textmonial .carousel-control-prev .carousel-control-next{
+    max-width: 80%;
+}
+section.textmonial.carousel  .carousel-fade .carousel-item{
+    transition: opacity 0.5s;
+}
+section .textmonial .carousel-item  p{
+    width: 80%;
+
+}
+section .textmonial .carousel-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fa-brands{
+text-decoration: none;
+color: black;
+padding: 30px;
+}
+a:hover{
+color:rgb(255, 0, 0);
+
+    }
+    .fa-brands{
+        transition:all 300ms;
+    }
+
+    .fa-brands:hover{
+        transform: scale(2.06);
+    }
+    section .contact{
+        background-color: aquamarine;
+    }
+
+    section .contact .row{
+        background-color: aquamarine;
+    }
+
+    section .contact .row .social-media{
+        background-color: aquamarine;
+    }
+    footer{
+        color:white;
+    }
